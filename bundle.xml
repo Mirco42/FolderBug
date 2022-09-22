@@ -1,0 +1,176 @@
+<l7:Bundle xmlns:l7="http://ns.l7tech.com/2010/04/gateway-management">
+            <l7:References>
+                <l7:Item>
+                    <l7:Name>Folder3</l7:Name>
+                    <l7:Id>4f29ffec786119f752b6c93a0386332c</l7:Id>
+                    <l7:Type>FOLDER</l7:Type>
+                    <l7:TimeStamp>2022-09-22T10:14:33.497Z</l7:TimeStamp>
+                    <l7:Resource>
+                        <l7:Folder folderId="4f29ffec786119f752b6c93a03863242" id="4f29ffec786119f752b6c93a0386332c" version="0">
+                            <l7:Name>Folder3</l7:Name>
+                        </l7:Folder>
+                    </l7:Resource>
+                </l7:Item>
+                <l7:Item>
+                    <l7:Name>innerPolicy</l7:Name>
+                    <l7:Id>4f29ffec786119f752b6c93a03863371</l7:Id>
+                    <l7:Type>POLICY</l7:Type>
+                    <l7:TimeStamp>2022-09-22T10:14:33.498Z</l7:TimeStamp>
+                    <l7:Resource>
+                        <l7:Policy guid="726484b4-990e-4adc-a1e8-3d217f43fd73" id="4f29ffec786119f752b6c93a03863371" version="0">
+                            <l7:PolicyDetail folderId="4f29ffec786119f752b6c93a0386332c" guid="726484b4-990e-4adc-a1e8-3d217f43fd73" id="4f29ffec786119f752b6c93a03863371" version="0">
+<l7:Name>innerPolicy</l7:Name>
+<l7:PolicyType>Include</l7:PolicyType>
+<l7:Properties>
+    <l7:Property key="hasRouting">
+        <l7:BooleanValue>false</l7:BooleanValue>
+    </l7:Property>
+    <l7:Property key="revision">
+        <l7:LongValue>1</l7:LongValue>
+    </l7:Property>
+    <l7:Property key="soap">
+        <l7:BooleanValue>false</l7:BooleanValue>
+    </l7:Property>
+</l7:Properties>
+                            </l7:PolicyDetail>
+                            <l7:Resources>
+<l7:ResourceSet tag="policy">
+    <l7:Resource type="policy">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;wsp:Policy xmlns:L7p=&quot;http://www.layer7tech.com/ws/policy&quot; xmlns:wsp=&quot;http://schemas.xmlsoap.org/ws/2002/12/policy&quot;&gt;
+    &lt;wsp:All wsp:Usage=&quot;Required&quot;&gt;
+        &lt;L7p:CommentAssertion&gt;
+            &lt;L7p:Comment stringValue=&quot;Policy Fragment: innerPolicy&quot;/&gt;
+        &lt;/L7p:CommentAssertion&gt;
+    &lt;/wsp:All&gt;
+&lt;/wsp:Policy&gt;
+</l7:Resource>
+</l7:ResourceSet>
+                            </l7:Resources>
+                        </l7:Policy>
+                    </l7:Resource>
+                </l7:Item>
+                <l7:Item>
+                    <l7:Name>SSL</l7:Name>
+                    <l7:Id>00000000000000000000000000000002:SSL</l7:Id>
+                    <l7:Type>SSG_KEY_ENTRY</l7:Type>
+                    <l7:TimeStamp>2022-09-22T10:14:33.773Z</l7:TimeStamp>
+                    <l7:Resource>
+                        <l7:PrivateKey alias="SSL" keystoreId="00000000000000000000000000000002" id="00000000000000000000000000000002:SSL">
+                            <l7:CertificateChain>
+<l7:CertificateData>
+    <l7:IssuerName>CN%3D6d3095b61858</l7:IssuerName>
+    <l7:SerialNumber>3850365724295781246</l7:SerialNumber>
+    <l7:SubjectName>CN%3D6d3095b61858</l7:SubjectName>
+    <l7:Encoded>MIIC8jCCAdqgAwIBAgIINW8/OeP9W34wDQYJKoZIhvcNAQEMBQAwFzEVMBMGA1UEAxMMNmQzMDk1YjYxODU4MB4XDTE5MDcwNDA5MjgzM1oXDTI5MDcwMTA5MjgzM1owFzEVMBMGA1UEAxMMNmQzMDk1YjYxODU4MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAozrf552zOGxS/ncF36U8DVuQL1RjDusyWkqVPPuS4dG9tBpvyMm7RzfphetbOMVvB1LxHXhmW7WdSV3qgHBTRPPe4Yp+7zyNtuHUAVQ5geNDKd/0AbRK5KmVld5Fd6cldZkSoSjII+A0j/WncNQh1NCVuezUfVtrZn6LW9enI+6lRgA0Iae8tsoA5QHWGbwd25EKwl2JzI/3eGH1cUO1ZPnQuroWKsw+/klUXsJ+Mgb4ScdTP+32qKHyK7Dk4ROCYCXx5yF6PeuCoW0oMO6M07KsPGps83ZRrStusJ7lY8IxfkiGZnt3nkkc9VkFmd78fWo21fs9tSIQy7YUE6GMuQIDAQABo0IwQDAdBgNVHQ4EFgQU13Uj1Z62ksi59h2S9ZaNyhv+Tn8wHwYDVR0jBBgwFoAU13Uj1Z62ksi59h2S9ZaNyhv+Tn8wDQYJKoZIhvcNAQEMBQADggEBAIK4iZf1RwkT9IsAD8siIyGj52c6TOP+xkAeyASlJXUA1ZoRl8UvUl6zK4qLaJtIgUyUGZOHFJdOR45I/NUcB6iQ1ZimReChao9vEA1wDZwJjkRXyrm+sxIhxdBUbBIlQ2o4teZOXadWyo6cxW9+iqf+YL+7ybahLmHvTcgQUPYmsPY8iH3NfvNBASgMj0W+Y61IBZifTYUSYTSnQZVKC2IMTVURZPv78LF4Yklx28VLpYoDcnEGumJ7+QWNhlGSDrjibD4ABDiTMDmEtwGZUT90G+MWaSZF0A0wjPPWK9BoCw3XjimHyF0Tf89JJZkbiLvK7t2GS5CQiq/q/YWSubQ=</l7:Encoded>
+</l7:CertificateData>
+                            </l7:CertificateChain>
+                            <l7:Properties>
+<l7:Property key="keyAlgorithm">
+    <l7:StringValue>RSA</l7:StringValue>
+</l7:Property>
+<l7:Property key="keyData">
+    <l7:StringValue bundleKey="$L7C2$1bead,Ov5l7qLKGDkp12CkU9I4ZShnK5KBkRrN1Rm2hJc3lGM=$AjQczPByLkGXSurdsOAIR4ynwqI8u+Yn1oKXTEnikdxCiILgqFkDsR6LD6Y/ycErARJ/0kg72td9hBtzPGUjpE6RRyRv5jdmvbez1eMsPdQtjlCuHVRoypxBP6Ulanx/" algorithm="RSA">$L7C2$1,kdlIyhvbhoodXLPEAbhblIjykfWOFof2j04eKm3OTaI=$e9C5prrB2Dk/R/7GTbpHwsL1Tpt4t9EcP9z4nxGy9zixYU5OdmWdLviTo48un800gIHjkPUx/5qlLDQnXSDwBl+H0P9BEcvNQ2B8Tw6gIiFsHKKprN247GWUMbd7Wt21xSCpAOKcW/IrKNkCGv/fRVsSK47PDFoutEJh2FUZieW+b2FWu5FmOScN6uj6vbYIJIi1R2w2BJ2HsNHr+OGiCdBEz6m537gpFHc4IE/M4nJLT3GSf6HbqznN8PstvICQTBQekDMcpklGhvS7rm58HyjwhMx8os/HaqvVcnJgiKWhTMrcaCTeNZel4eAk0E28w4jM6xN3ypBxIDGOrsh59fVEnV9ZzIeIIsyDFkUmY51jausyPJzFSxX94THMqa4RKdEPBBJZAhTBYUZQS6DUXczwSxLay/m7KS/5ARFcs8a1ZtI/wo02ZdhEKeV7wtNCngRysrjYhtzH+qulZ6bOmVfU3t5lwGL6okEj51DlDiG+mD+ivBPp85YlcUAHKfmqK6r9JzzndpQV+zaAIgX818flanXWVS5M72BIFZtvX2IL+Zwmt5p1rf9rpzvldq7Ous9lcxk6IDSXEAFkzWiRr81yQl2ko3DGk5LlnFo2GY16IC2XTjr0cGTL5jf0Ed4/ftxufC76LJsDpQ56a6054ZL92tvrR5G0kaSHEEWKk5qNdSMAj6epx4miVT/tC+1Fg7EVMHFaSxpq98sdDvvSmiuTl1UF9a8vx/+bRZXaRk1QvLlua04WLVl2EMZhKcvKEaL1YxzAeDYTais/UjN+7rD8WITgnCuwCaEGn8uweICL8yP2/s1yNnnHxiqDE0/d2QQQXJfAxcNv4OJZngkpXoSxzjvDtvjJCcFiRiV3SlqloVAFqYm8EjOVJixTTMs4Fkp38hdD2odIGTKfhrzR2YJpkg3vhoqTGslS+sE/aKpf+d80IVKDEneuG6tOb7isvp0Q68eNO/Pd0ZPUtz4L/iHYMV6xHnyGrm2huZFbcYnn7/P77ML/TxbjERp9il+wJYbb2aetGzQOdbX5eiuW8QlW5NPtYubyjJ4PsBn19/ocJvaLGWxbIfxivk3bygVL2ZLFqxhdi8+aOnstL05NpufxY5F573XKAcQT3tb3WuKLaWEaTOuT66Yi+9p7ByCm6cWWIyBhP+V/fdZ9dJnG3t9+A9jwwW8KtMevfsozuVM0SwTepCcrGNbPdkWCutKlqFwEUMBE52Ux3U5GFSO2t7xOqAsmkuQVnLP/uShUhcJKu6rdqLsOPINml4qXPZU/MjIwtstP21TCR/FkCcVlxNJThjjEwExhER7lQY2juueYz3u8oJj8twH1nbOzmBeFnN2cdibOHnm0wa27U7rhNoh5Bd72gLXfzEEWUVDnyDbqdnCnS5NfiIZiTXQyBOEQiTVfkyLFwRlqpWr+tFvsuqCsZss+tFAAz+6o36zXTJJHATl7kAwuztd9mTmjLCB1TzhttZA1K+4DAowKNhL7kCH7fQPTThgfZ6+CUruKI+i/WR69K0UWt0c4VxCcIc6KjlloiSyjMsUeJ54hgTbp47BxjsYOjdixiAH/lxA9q8OYta5LPOHpdBP8AFzwC3qGR+S9TDdq/H0jG11hyDz1XhNeme6GEggNajPY0JVtWPiqLwoprgI76VV3/SZ1+jgq9sPvyL+6L/aEgwTYflpUFWAnJzizzAbonfgWRenEUcw=</l7:StringValue>
+</l7:Property>
+<l7:Property key="specialPurposes">
+    <l7:StringValue>Default SSL Key</l7:StringValue>
+</l7:Property>
+                            </l7:Properties>
+                        </l7:PrivateKey>
+                    </l7:Resource>
+                </l7:Item>
+                <l7:Item>
+                    <l7:Name>API1</l7:Name>
+                    <l7:Id>4f29ffec786119f752b6c93a038633c3</l7:Id>
+                    <l7:Type>SERVICE</l7:Type>
+                    <l7:TimeStamp>2022-09-22T10:14:33.778Z</l7:TimeStamp>
+                    <l7:Resource>
+                        <l7:Service id="4f29ffec786119f752b6c93a038633c3" version="2">
+                            <l7:ServiceDetail folderId="4f29ffec786119f752b6c93a0386332c" id="4f29ffec786119f752b6c93a038633c3" version="2">
+<l7:Name>API1</l7:Name>
+<l7:Enabled>true</l7:Enabled>
+<l7:ServiceMappings>
+    <l7:HttpMapping>
+        <l7:UrlPattern>/http://localhost:8080/api1</l7:UrlPattern>
+        <l7:Verbs>
+            <l7:Verb>GET</l7:Verb>
+            <l7:Verb>POST</l7:Verb>
+            <l7:Verb>PUT</l7:Verb>
+            <l7:Verb>DELETE</l7:Verb>
+        </l7:Verbs>
+    </l7:HttpMapping>
+</l7:ServiceMappings>
+<l7:Properties>
+    <l7:Property key="hasRouting">
+        <l7:BooleanValue>true</l7:BooleanValue>
+    </l7:Property>
+    <l7:Property key="internal">
+        <l7:BooleanValue>false</l7:BooleanValue>
+    </l7:Property>
+    <l7:Property key="policyRevision">
+        <l7:LongValue>1</l7:LongValue>
+    </l7:Property>
+    <l7:Property key="soap">
+        <l7:BooleanValue>false</l7:BooleanValue>
+    </l7:Property>
+    <l7:Property key="tracingEnabled">
+        <l7:BooleanValue>false</l7:BooleanValue>
+    </l7:Property>
+    <l7:Property key="wssProcessingEnabled">
+        <l7:BooleanValue>false</l7:BooleanValue>
+    </l7:Property>
+</l7:Properties>
+                            </l7:ServiceDetail>
+                            <l7:Resources>
+<l7:ResourceSet tag="policy">
+    <l7:Resource type="policy" version="0">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;wsp:Policy xmlns:L7p=&quot;http://www.layer7tech.com/ws/policy&quot; xmlns:wsp=&quot;http://schemas.xmlsoap.org/ws/2002/12/policy&quot;&gt;
+    &lt;wsp:All wsp:Usage=&quot;Required&quot;&gt;
+        &lt;L7p:HttpRoutingAssertion&gt;
+            &lt;L7p:ProtectedServiceUrl stringValue=&quot;http://localhost:8080/api1&quot;/&gt;
+            &lt;L7p:RequestHeaderRules httpPassthroughRuleSet=&quot;included&quot;&gt;
+                &lt;L7p:ForwardAll booleanValue=&quot;true&quot;/&gt;
+                &lt;L7p:Rules httpPassthroughRules=&quot;included&quot;&gt;
+                    &lt;L7p:item httpPassthroughRule=&quot;included&quot;&gt;
+                        &lt;L7p:Name stringValue=&quot;Cookie&quot;/&gt;
+                    &lt;/L7p:item&gt;
+                    &lt;L7p:item httpPassthroughRule=&quot;included&quot;&gt;
+                        &lt;L7p:Name stringValue=&quot;SOAPAction&quot;/&gt;
+                    &lt;/L7p:item&gt;
+                &lt;/L7p:Rules&gt;
+            &lt;/L7p:RequestHeaderRules&gt;
+            &lt;L7p:RequestParamRules httpPassthroughRuleSet=&quot;included&quot;&gt;
+                &lt;L7p:ForwardAll booleanValue=&quot;true&quot;/&gt;
+                &lt;L7p:Rules httpPassthroughRules=&quot;included&quot;/&gt;
+            &lt;/L7p:RequestParamRules&gt;
+            &lt;L7p:ResponseHeaderRules httpPassthroughRuleSet=&quot;included&quot;&gt;
+                &lt;L7p:ForwardAll booleanValue=&quot;true&quot;/&gt;
+                &lt;L7p:Rules httpPassthroughRules=&quot;included&quot;&gt;
+                    &lt;L7p:item httpPassthroughRule=&quot;included&quot;&gt;
+                        &lt;L7p:Name stringValue=&quot;Set-Cookie&quot;/&gt;
+                    &lt;/L7p:item&gt;
+                &lt;/L7p:Rules&gt;
+            &lt;/L7p:ResponseHeaderRules&gt;
+        &lt;/L7p:HttpRoutingAssertion&gt;
+    &lt;/wsp:All&gt;
+&lt;/wsp:Policy&gt;
+</l7:Resource>
+</l7:ResourceSet>
+                            </l7:Resources>
+                        </l7:Service>
+                    </l7:Resource>
+                </l7:Item>
+            </l7:References>
+            <l7:Mappings>
+                <l7:Mapping action="NewOrExisting" srcId="4f29ffec786119f752b6c93a03863242" srcUri="https://ed8c66dae1cd:8444/restman/1.0/folders/4f29ffec786119f752b6c93a03863242" type="FOLDER">
+                    <l7:Properties>
+                        <l7:Property key="FailOnNew">
+                            <l7:BooleanValue>true</l7:BooleanValue>
+                        </l7:Property>
+                    </l7:Properties>
+                </l7:Mapping>
+                <l7:Mapping action="NewOrExisting" srcId="4f29ffec786119f752b6c93a0386332c" srcUri="https://ed8c66dae1cd:8444/restman/1.0/folders/4f29ffec786119f752b6c93a0386332c" type="FOLDER"/>
+                <l7:Mapping action="NewOrExisting" srcId="4f29ffec786119f752b6c93a03863371" srcUri="https://ed8c66dae1cd:8444/restman/1.0/policies/4f29ffec786119f752b6c93a03863371" type="POLICY"/>
+                <l7:Mapping action="NewOrExisting" srcId="00000000000000000000000000000002:SSL" srcUri="https://ed8c66dae1cd:8444/restman/1.0/privateKeys/00000000000000000000000000000002:SSL" type="SSG_KEY_ENTRY"/>
+                <l7:Mapping action="NewOrExisting" srcId="4f29ffec786119f752b6c93a038633c3" srcUri="https://ed8c66dae1cd:8444/restman/1.0/services/4f29ffec786119f752b6c93a038633c3" type="SERVICE"/>
+            </l7:Mappings>
+        </l7:Bundle>
