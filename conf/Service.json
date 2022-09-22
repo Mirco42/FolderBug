@@ -1,0 +1,67 @@
+{
+    "service": [
+        {
+            "serviceDetail": {
+                "folderId": "4f29ffec786119f752b6c93a0386332c",
+                "id": "4f29ffec786119f752b6c93a038633c3",
+                "name": "API1",
+                "enabled": "true",
+                "serviceMappings": {
+                    "httpMapping": {
+                        "urlPattern": "\/http:\/\/localhost:8080\/api1",
+                        "verbs": {
+                            "verb": [
+                                "GET",
+                                "POST",
+                                "PUT",
+                                "DELETE"
+                            ]
+                        }
+                    }
+                },
+                "properties": {
+                    "property": [
+                        {
+                            "key": "hasRouting",
+                            "booleanValue": "true"
+                        },
+                        {
+                            "key": "internal",
+                            "booleanValue": "false"
+                        },
+                        {
+                            "key": "policyRevision",
+                            "longValue": "1"
+                        },
+                        {
+                            "key": "soap",
+                            "booleanValue": "false"
+                        },
+                        {
+                            "key": "tracingEnabled",
+                            "booleanValue": "false"
+                        },
+                        {
+                            "key": "wssProcessingEnabled",
+                            "booleanValue": "false"
+                        }
+                    ]
+                }
+            },
+            "resources": {
+                "resourceSet": [
+                    {
+                        "tag": "policy",
+                        "resource": [
+                            {
+                                "type": "policy",
+                                "content": "Folder3\/API1.xml"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "id": "4f29ffec786119f752b6c93a038633c3"
+        }
+    ]
+}
